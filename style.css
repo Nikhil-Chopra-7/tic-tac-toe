@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: #979dac;
+  height: 100vh;
+  width: 100vw;
+}
+
+div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+button {
+  height: 200px;
+  width: 200px;
+  background: #5c677d;
+  border: 1px solid #001233;
+  cursor: pointer;
+  font-size: 96px;
+  color: #001233;
+  border-radius: 16px;
+}
+
+button:hover {
+  background: #33415c;
+}
+
+h1 {
+  padding-top: 10vh;
+  color: #001233;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 16px;
+  font-size: 96px;
+}
